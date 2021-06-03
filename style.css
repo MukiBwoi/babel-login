@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 html,
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .top {
@@ -9,6 +11,10 @@ body {
     width: 100%;
     color: #6C63FF;
     padding: 20px 100px;
+}
+
+.top h1 {
+    letter-spacing: 5px;
 }
 
 .content {
